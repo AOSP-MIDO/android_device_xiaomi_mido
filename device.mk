@@ -370,6 +370,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
+# QTI common
+TARGET_COMMON_QTI_COMPONENTS := \
+    av \
+    bt \
+    perf
+
 # Minijail
 PRODUCT_PACKAGES += \
     libavservices_minijail.vendor
