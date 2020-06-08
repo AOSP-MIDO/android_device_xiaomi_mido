@@ -48,6 +48,9 @@
 # FPS Info
 /sys/devices/virtual/graphics/fb0/measured_fps           u:object_r:sysfs_fps:s0
 
+# Perf
+/vendor/bin/hw/vendor\.qti\.memory\.pasrmanager\@1\.0-service                                           u:object_r:hal_pasrmanager_memory_qti_exec:s0
+
 # AC Torch
 /sys/class/leds/led:torch_0/max_brightness    u:object_r:sysfs_torch:s0
 /sys/class/leds/led:torch_1/max_brightness    u:object_r:sysfs_torch:s0
