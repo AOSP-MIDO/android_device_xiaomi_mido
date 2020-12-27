@@ -86,7 +86,7 @@ PRODUCT_COPY_FILES += \
 
 # ANT
 PRODUCT_PACKAGES += \
-    AntHalService \
+    AntHalService-Soong \
     antradio_app \
     libantradio
 
