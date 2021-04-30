@@ -22,13 +22,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/mido/device.mk)
 
 # Inherit some common NezukoOS stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/nezuko/config/common_full_phone.mk)
 
 # Mido bootanimation flag
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Nezuko stuff
-NEZUKO_MAINTAINER := ShashankP
+NEZUKO_BUILD_TYPE := OFFICIAL
+NEZUKO_MAINTAINER := Shashank.S.Patil
 
 # Nezuko board stuff
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -36,7 +37,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
-PRODUCT_NAME := aosp_mido
+PRODUCT_NAME := nezuko_mido
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 4
 PRODUCT_MANUFACTURER := Xiaomi
