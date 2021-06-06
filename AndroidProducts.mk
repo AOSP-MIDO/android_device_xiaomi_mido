@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nezuko_mido.mk
+    $(LOCAL_DIR)/p404_mido.mk
 
 COMMON_LUNCH_CHOICES := \
-    nezuko_mido-user \
-    nezuko_mido-userdebug \
-    nezuko_mido-eng
+    p404_mido-user \
+    p404_mido-userdebug \
+    p404_mido-eng
