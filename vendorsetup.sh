@@ -1,8 +1,8 @@
 # CAF hal's
-rm -rf hardware/qcom/media hardware/qcom/display vendor/qcom/opensource/audio-hal/primary-hal 
-git clone https://github.com/shashank1436/android_hardware_qcom_display.git -b r11404 hardware/qcom/display
-git clone https://github.com/shashank1436/android_hardware_qcom_audio -b r11404 vendor/qcom/opensource/audio-hal/primary-hal
-git clone https://github.com/shashank1436/android_hardware_qcom_media.git -b r11404 hardware/qcom/media
+rm -rf hardware/qcom/media hardware/qcom/display vendor/qcom/opensource/audio-hal/primary-hal
+git clone https://github.com/AOSP-mido/android_hardware_qcom_display.git -b r11 hardware/qcom/display
+git clone https://github.com/AOSP-mido/android_hardware_qcom_audio -b r11 vendor/qcom/opensource/audio-hal/primary-hal
+git clone https://github.com/AOSP-mido/android_hardware_qcom_media.git -b r11 hardware/qcom/media
 
 # Qcom
 rm -rf device/qcom/common vendor/qcom/common
@@ -31,7 +31,3 @@ git clone https://github.com/LineageOS/android_packages_resources_devicesettings
 
 # temp
 rm -rf vendor/qcom/opensource/commonsys-intf/display
-
-# prebuilt kernel
-rm -rf device/xiaomi/mido-kernel
-git clone https://github.com/shashank1436/device_xiaomi_mido-kernel device/xiaomi/mido-kernel
