@@ -9,3 +9,5 @@ allow ueventd {
 }:file getattr;
 
 allow ueventd ueventd:capability { kill };
+
+allow ueventd persist_file:file r_file_perms;
